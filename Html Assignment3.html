@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile Card</title>
+  <style>
+   * {
+      font-family: 'Arial;
+      background-color:ffffff;
+    }
+    body {
+      font-family: 'Arial';
+    }
+     #container {
+      padding: 20px;
+      width: 500px;
+      margin: auto;
+      
+    }
+
+    .highlight {
+      background-color: yellow;
+    }
+
+    h1, h2, .title {
+      text-align: center;
+      color: hsl(210, 100%, 30%);
+    }
+
+    
+    section p {
+      color: navy;
+      line-height: 1.6;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+    }
+
+    
+    input[type="text"] {
+      padding: 8px;
+      border: 2px solid #ccc;
+    }
+
+    
+    a[href^="https"] {
+      color: green;
+    }
+
+    
+    .skill:hover {
+      color: rgb(0,  123, 255);
+    }
+
+
+    input:focus {
+      border-color: blue;
+    }
+
+    
+    ul li:first-child {
+      font-weight: bold;
+    }
+
+
+    .about::first-line {
+      font-style: italic;
+    }
+
+    
+    .name::first-letter {
+      font-size: 200%;
+      font-weight: bold;
+    }
+
+    
+    h1 {
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 4px #aaa;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      text-decoration: underline;
+    }
+
+    .title {
+      font-style: italic;
+    }
+
+    .skill {
+      font-weight: bold;
+    }
+
+    
+    footer {
+      background-color: rgba(0, 0, 0, 0.05);
+      padding: 10px;
+      text-align: center;
+    }
+
+    
+    .name {
+      color: green;
+    }
+
+    #container .name {
+      color: blue;
+    }
+
+    
+    button {
+      background-color: #333 ;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1 class="name highlight" style="color: red;">Your Name</h1> <!-- Inline style override -->
+      <p class="title">Your Role (e.g., Web Developer)</p>
+    </header>
+
+    <section class="about-section">
+      <h2>About Me</h2>
+      <p class="about">Write 2–3 lines about yourself and what you love to do.</p>
+    </section>
+
+    <section class="skills-section">
+      <h2>Skills</h2>
+      <ul>
+        <li class="skill">HTML</li>
+        <li class="skill">CSS</li>
+        <li class="skill">JavaScript</li>
+      </ul>
+    </section>
+
+    <section class="contact-section123">
+      <h2>Contact Me</h2>
+      <input type="text" placeholder="Your Email ID" />
+      <button>Send</button>
+    </section>
+
+    <footer>
+      <p class="copyright">© 2025 Your Name</p>
+    </footer>
+  </div>
+</body>
+</html>
+
